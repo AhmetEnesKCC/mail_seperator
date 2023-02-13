@@ -67,7 +67,7 @@ function App() {
                     )
                   )
 
-                  .join() + ","
+                  .join(", ") + ","
               }
             >
               {({ copied, copy }) => (
